@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  text-decoration: none;
+  background: #4a6cf7;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background: #3b5bdb;
+}
+
+.question-list {
+  list-style: none;
+  padding: 0;
+}
+
+.question-list li {
+  margin: 15px 0;
+}
+
+.question-list a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+}
+
+.question-list a:hover {
+  color: #4a6cf7;
+}
+
+.back {
+  text-decoration: none;
+  color: #4a6cf7;
+}
+
